@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c4890f06baa9f4793c29cb2628dba4, type: 3}
+  m_Name: GraSettingsInstaller
+  m_EditorClassIdentifier: 
+  statekWrogaSettings:
+    poczatkowaPredkoscStatkuNaBoki: 0
+    interwalStrzelania: 0
+  statekSettings:
+    predkoscStatku: 12
+    interwalStrzelania: 33
+  pociskSettings:
+    predkosc: 2
+    czasDoUsuniecia: 5
+  statekPrefab: {fileID: 568603696193280236, guid: 1015f92b8bdbf864d82e186cd3267f8f, type: 3}
+  pociskPrefab: {fileID: 8819692465117589267, guid: 1cc69f0f2eb4e5444919fa7f2f3bd224, type: 3}
+  statekWrogaPrefab: {fileID: 6686693171637459708, guid: e274b30b7163dac4bb391d0dcee1a107, type: 3}
+  layouty:
+  - waveLayout: 01000000060000000a000000
+  - waveLayout: 02000000050000000a000000
+  - waveLayout: 140000000a000000140000000a000000
+  - waveLayout: 140000000a000000050000000a00000014000000
+  - waveLayout: 050000000500000005000000
